@@ -47,5 +47,21 @@
         </div>
 	</div>
 </div>
+<!-- script -->
+<script type="text/javascript" src="/js/_core/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/js/_core/plugin/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+
+<script>
+// vanilla JS
+var grid = document.querySelector('.inner');
+var iso = new Isotope( grid, {
+  // options...
+  itemSelector: '.col',
+  masonry: {
+    columnWidth: 300
+  }
+});
+</script>
 </body>
 </html>
