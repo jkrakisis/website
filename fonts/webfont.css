@@ -1,0 +1,255 @@
+@charset "utf-8";
+/** (주) 플랜아이 (http://plani.co.kr) */
+/* ------------------------------------------------------------
+ * Created   : 2015/5/4 jk
+  * modify   : 2015/6/8 jk
+ ------------------------------------------------------------ */
+ /*
+사용예시
+
+font-family: aritadsb,'아리따돋움', aritadm, 'Apple Gothic', 'DroidSansFallback', '맑은고딕', 'Malgun Gothic', '나눔고딕', NanumGothic, '돋움', dotum, arial, sans-serif, helvetica;
+
+*/
+ @font-face{
+    font-family:AritaT;
+    src:url('/fonts/arita/arita-Thin.eot');
+    src:url('/fonts/arita/arita-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/arita/arita-Thin.woff') format('woff'),
+        url('/fonts/arita/arita-Thin.ttf') format('truetype'),
+        url('/fonts/arita/arita-Thin.svg#PreloSlabMedium') format('svg');
+    font-weight:normal;font-style:normal;
+	text-rendering: optimizeLegibility;
+}
+.Aritat {font-family:AritaT;}
+@font-face{
+    font-family:AritaL;
+    src:url('/fonts/arita/arita-Light.eot');
+    src:url('/fonts/arita/arita-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/arita/arita-Light.woff') format('woff'),
+        url('/fonts/arita/arita-Light.ttf') format('truetype'),
+        url('/fonts/arita/arita-Light.svg#PreloSlabMedium') format('svg');
+    font-weight:normal;font-style:normal;
+	text-rendering: optimizeLegibility;
+}
+.Arital {font-family:AritaL;}
+@font-face{
+    font-family:Arita;
+    src:url('/fonts/arita/arita-Medium.eot');
+    src:url('/fonts/arita/arita-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/arita/arita-Medium.woff') format('woff'),
+        url('/fonts/arita/arita-Medium.ttf') format('truetype'),
+        url('/fonts/arita/arita-Medium.svg#PreloSlabMedium') format('svg');
+    font-weight:normal;font-style:normal;
+	text-rendering: optimizeLegibility;
+}
+.Arita {font-family:Arita;}
+@font-face{
+    font-family:AritaSB;
+    src:url('/fonts/arita/arita-SemiBold.eot');
+    src:url('/fonts/arita/arita-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/arita/arita-SemiBold.woff') format('woff'),
+        url('/fonts/arita/arita-SemiBold.ttf') format('truetype'),
+        url('/fonts/arita/arita-SemiBold.svg#PreloSlabMedium') format('svg');
+    font-weight:normal;font-style:normal;
+	text-rendering: optimizeLegibility;
+}
+.Aritasb {font-family:AritaSB;}
+@font-face{
+    font-family:AritaB;
+    src:url('/fonts/arita/arita-Bold.eot');
+    src:url('/fonts/arita/arita-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/arita/arita-Bold.woff') format('woff'),
+        url('/fonts/arita/arita-Bold.ttf') format('truetype'),
+        url('/fonts/arita/arita-Bold.svg#PreloSlabMedium') format('svg');
+    font-weight:normal;font-style:normal;
+	text-rendering: optimizeLegibility;
+}
+.Aritab {font-family:AritaB;}
+
+  /* NanumBarunGothic- 사이트 이전하면 절대경로로 변경 앞에 사이트 url 적어주기*/
+ @font-face {
+ font-family: 'NanumBarunGothic';
+ src: url('/website/fonts/nanum/NanumBarunGothicWeb.eot'); /*IE9 호환성 보기*/
+ src: url('/website/fonts/nanum/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), /*IE 6-8*/
+      url('/website/fonts/nanum/NanumBarunGothicWeb.woff') format('woff'), /*표준브라우저*/
+      url('/website/fonts/nanum/NanumBarunGothicWeb.ttf') format('truetype');
+}
+.nanum-barun {font-family:'NanumBarunGothic',sans-serif;}
+@font-face {
+ font-family: 'NanumBarunGothicBold';
+ src: url('/website/fonts/nanum/NanumBarunGothicWebBold.eot');
+ src: url('/website/fonts/nanum/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'),
+      url('/website/fonts/nanum/NanumBarunGothicWebBold.woff') format('woff'),
+      url('/website/fonts/nanum/NanumBarunGothicWebBold.ttf') format('truetype');
+}
+.nanum-barun-bold {font-family:'NanumBarunGothicBold',sans-serif;}
+@font-face {
+ font-family: 'NanumBarunGothicLight';
+ src: url('/website/fonts/nanum/NanumBarunGothicWebLight.eot');
+ src: url('/website/fonts/nanum/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'),
+      url('/website/fonts/nanum/NanumBarunGothicWebLight.woff') format('woff'),
+      url('/website/fonts/nanum/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+.nanum-barun-light {font-family:'NanumBarunGothicLight',sans-serif;}
+
+
+/* JejuGothic*/
+@font-face {
+  font-family: 'JejuGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/website/fonts/jejugothic/JejuGothic.eot);
+  src: url(/website/fonts/jejugothic/JejuGothic.eot?#iefix) format('embedded-opentype'),
+       url(/website/fonts//jejugothic/JejuGothic.woff) format('woff'),
+       url(/website/fonts//jejugothic/JejuGothic.ttf) format('truetype');
+}
+.jejuGothic {font-family: 'JejuGothic','제주고딕',sans-serif;}
+
+/* SeoulNamsan*/
+@font-face {
+  font-family: 'SeoulNamsan';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/website/fonts/seoulnamsan/SeoulNamsan.eot);
+  src: url(/website/fonts/seoulnamsan/SeoulNamsan.eot?#iefix) format('embedded-opentype'),
+       url(/website/fonts/seoulnamsan/SeoulNamsan.woff) format('woff'),
+       url(/website/fonts/seoulnamsan/SeoulNamsan.ttf) format('truetype');
+}
+.seoulNamsan {font-family: 'SeoulNamsan','서울남산',sans-serif;}
+
+/* BareunDotum*/
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/website/fonts/bareundotum/BareunDotum.eot);
+  src: url(/website/fonts/bareundotum/BareunDotum.eot?#iefix) format('embedded-opentype'),
+       url(/website/fonts/bareundotum/BareunDotum.woff) format('woff'),
+       url(/website/fonts/bareundotum/BareunDotum.ttf) format('truetype');
+}
+.bareundotum {font-family: 'BareunDotum','바른돋음',sans-serif;}
+
+
+
+
+/* 나눔고딕 */
+@font-face{font-family:NanumGothic; src:url('/website/fonts/nanum/NanumGothic-Regular.eot'); src:local(※),url('/website/fonts/nanum/NanumGothic-Regular.woff') format('woff'),url('/website/fonts/nanum/NanumGothic-Regular.eot#iefix') format('embedded-opentype'),
+			url('/website/fonts/nanum/NanumGothic-Regular.woff2') format('woff2'),url('/website/fonts/nanum/NanumGothic-Regular.ttf') format('truetype');
+}
+.nanum{font-family:'나눔고딕',nanum,NanumGothic,Nanum Gothic, "Microsoft Yahei","微软雅黑", STXihei, sans-serif;}
+
+/* 나눔고딕 Bold */
+@font-face{font-family:NanumGothicBold; src:url('/website/fonts/nanum/NanumGothic-Bold.eot');src:local(※),url('/website/fonts/nanum/NanumGothic-Bold.woff') format('woff'),url('/website/fonts/nanum/NanumGothic-Bold.eot#iefix') format('embedded-opentype'),
+			url('/website/fonts/nanum/NanumGothic-Bold.woff2') format('woff2'),url('/website/fonts/nanum/NanumGothic-Bold.ttf') format('truetype');
+}
+.nanum-bold{font-family:'나눔고딕 Bold',nanum-bold, NanumGothicBold, sans-serif;}
+
+/* 나눔고딕 ExtraBold */
+@font-face{font-family:NanumGothicExtraBold; src:url('/website/fonts/nanum/NanumGothic-ExtraBold.eot');src:local(※),url('/website/fonts/nanum/NanumGothic-ExtraBold.woff') format('woff'),url('/website/fonts/nanum/NanumGothic-ExtraBold.eot#iefix') format('embedded-opentype'),
+			url('/website/fonts/nanum/NanumGothic-ExtraBold.woff2') format('woff2'),url('/website/fonts/nanum/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+.nanum-ebold{font-family:'나눔고딕 ExtraBold',nanum-ebold, NanumGothicExtraBold, sans-serif;}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Regular.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Regular.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Bold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Bold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-ExtraBold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-ExtraBold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+
+
+@font-face{
+font-family: 'Daumche';
+    font-style: bold;
+    font-weight: 800;
+    src: url(/website/fonts/daum/Daumche.eot);
+    src: url(/website/fonts/daum/Daumche.eot?#iefix) format('embedded-opentype'),
+         url(/website/fonts/daum/Daumche.woff) format('woff'),
+         url(/website/fonts/daum/Daumche.ttf) format('truetype');
+}
+.Daumche {font-family:'Daumche', sans-serif;}
+
+
+/* 영문 */
+ /* Montserrat-Regular 사이트 이전하면 절대경로로 변경 앞에 사이트 url 적어주기*/
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('/website/fonts/Montserrat/Montserrat-Regular.eot');
+  src: url('/website/fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/website/fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+       url('/website/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+       url('/website/fonts/Montserrat/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+}
+.montserrat-Regular {
+  font-family: 'Montserrat-Regular',sans-serif;
+}
+ /* Montserrat-Bold 사이트 이전하면 절대경로로 변경 앞에 사이트 url 적어주기*/
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/website/fonts/Montserrat/Montserrat-Bold.eot');
+  src: url('/website/fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/website/fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+       url('/website/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype'),
+       url('/website/fonts/Montserrat/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+}
+.montserrat-bold {
+  font-family: 'Montserrat-Bold',sans-serif;
+}
+
+/* nobilebold */
+@font-face {
+    font-family: 'nobilebold'; src: url('/website/fonts/nobile/nobile-bold.eot');
+    src: url('/website/fonts/nobile/nobile-bold.eot?#iefix') format('embedded-opentype'),
+         url('/website/fonts/nobile/nobile-bold.woff') format('woff'),
+         url('/website/fonts/nobile/nobile-bold.ttf') format('truetype'),
+         url('/website/fonts/nobile/nobile-bold.svg#nobileregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.nobile-bold {font-family:'nobilebold',vernada, sans-serif;}
+
+/* nobileregular */
+@font-face {
+    font-family: 'nobileregular';
+    src: url('/website/fonts/nobile/nobile-regular.eot');
+    src: url('/website/fonts/nobile/nobile-regular.eot?#iefix') format('embedded-opentype'),
+         url('/website/fonts/nobile/nobile-regular.woff') format('woff'),
+         url('/website/fonts/nobile/nobile-regular.ttf') format('truetype'),
+         url('/website/fonts/nobile/nobile-regular.svg#nobileregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.nobile-regular {font-family:'nobileregular',vernada, sans-serif;}
+
+/* times -Times New Roman  */
+@font-face{font-family:times; src:url('/website/fonts/time/times.eot');src:local('times'),url('/website/fonts/time/times.woff') format('woff'),url('/website/fonts/time/times.eot#iefix') format('embedded-opentype'),
+			url('/website/fonts/time/times.woff2') format('woff2'),url('/website/fonts/times.ttf') format('truetype');
+}
+.times {font-family: 'times', serif;}
