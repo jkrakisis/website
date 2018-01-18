@@ -1,0 +1,421 @@
+ * {margin:0; padding:0;}
+ html {margin:0; padding:0; }
+ body {  font-family: 'Spoqa Han Sans',"맑은 고딕", Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; font-size: 0.875em; line-height: 1.5;  color: #444;height:100%; }
+ img {border:0; margin:0; padding:0;}
+
+ .header {width:100%; min-width:1280px;min-height:222px; margin:0; padding:10px 0 ; }
+ .header h1 {margin:65px auto 0 auto; width:95%; padding:50px 0 ; color:#fff;   font-size: 2em; letter-spacing:0; background:url('http://jkrakisis.plani.kr/reference/2015/26_ck.mokwon/images/title_ba.gif') no-repeat 0 0;}
+ .header h1 span {display:block; color:#fff;  font-weight:normal; font-family: Arial, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; opacity: 0.4; }
+ .header h1.eng {padding:42px 0 40px; font-size:3.746em;  line-height: 1.2; letter-spacing:0; font-family: Arial, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif;} /*68*/
+ .header h1.eng span { font-size:0.5em; letter-spacing:0;}
+ .header h1.kor {font-size:3.471em;  line-height: 1.0; letter-spacing:-0.05em;} /*55*/
+ .header h1.kor span {margin-top:14px; font-size:0.62em; letter-spacing:0;}
+
+ #index h2 {font-size:1.0em; margin:50px 0 0; padding:0 0 0 100px;}
+ #index h2 .box1 { font: 1.1em Arial;  display: inline-block; width: 9.5em; padding: .33em .5em .20em; background: #f47d93; color:#fff; margin: .5em 1em .5em 0; border-radius:20px; vertical-align:middle;  font-weight:normal;}
+ #index h2 .box1 .icon {display:inline-block; width:20px; height:20px; background:url("./images/date_arrow.png") no-repeat  0 1px; vertical-align:middle;}
+
+ .footer {clear:both; margin:20px 0 50px;  width:100%; min-width:1280px;}
+ .footer .logo {text-align:center; padding-top:30px; margin:0; width:100%; display:inline-block;}
+ .footer .logo a {display:inline-block;}
+ .footer p.copyright {display:block;text-align:center; padding-bottom: 10px; font-style:normal; color:#999; font-size:11px; line-height:16px; }
+ .footer address {display:block;text-align:center; padding-top:10px; font-style:normal; color:#999; font-size:11px; line-height:16px; }
+ .logo img {width:5%; height:5%; min-width:100px;}
+
+ .concept {margin:20px auto; width:90%;}
+ .concept dt {font-size:15px; font-weight:bold;}
+ .concept dd {margin:10px 0 0; font-size:13px;}
+ .color-red {color:#ff0000;}
+ .float-center {float:none !important; margin:50px auto 0 !important;}
+
+ .main {
+ margin:0 auto;
+ width:100%;
+ min-width:100%;
+ padding: 0;
+ text-align:center;
+ }
+ .main .inner {width:98%; overflow:hidden; text-align: center; margin:0 auto;}
+ .main .col-images{
+ margin-bottom: 12px;
+ overflow: hidden;
+ }
+ .main .col {
+
+ height: auto;
+ margin: 50px 0 0;
+ /* overflow: hidden; */
+ position: relative;
+ text-align: center;
+ width: 500px;
+
+ }
+.main .row03 .col {
+ float: left;
+ height: auto;
+ margin: 50px 0 0;
+ /* overflow: hidden; */
+ position: relative;
+ text-align: center;
+ width: 400px;
+
+ }
+ .main .content-images {
+background:#1A1A1A;
+ height:238px;
+ margin: -286px 0 0 61px;
+ overflow: hidden;
+ position: absolute;
+
+ width: 379px;
+
+ }
+  .main  .row03 .content-images {
+ background:#1A1A1A;
+ height:198px;
+ margin: -230px 0 0 50px;
+ overflow: hidden;
+ position: absolute;
+
+ width: 301px;
+
+ }
+ .main .row03 .col span img {width:98%;}
+
+ .main .mobile img {text-align:center;}
+ .main .mobile .content-images {
+ background:#1A1A1A;
+ height:217px;
+ margin: -266px 0 0 240px;
+ overflow: hidden;
+ position: absolute;
+
+ width: 122px;
+
+ }
+ .main .mobile span {display:block; width:100%;}
+
+ .main .col .images {
+ left: 0;
+ top:0;
+ cursor: pointer;
+ height:100%;
+ overflow: hidden;
+ position: absolute;
+ width:100%;
+ }
+ .main .row03 .col .images {
+ left: 0;
+ top:0;
+ cursor: pointer;
+ height:100%;
+ overflow: hidden;
+ position: absolute;
+ 
+ width:301px;
+ }
+ .main .content-images  a {background-size: 379px auto;}
+
+ .main .row03 .content-images  a {background-size: 301px auto;}
+
+ .main .col .images:hover{background-position: center 100%!important;}
+
+ .main .col-link { display: inline-block; margin: 12px 0 0;}
+ .main .col-link a {
+ background:none;
+ border:1px solid #070707;
+ color: #070707;
+ font-family: 'Spoqa Han Sans',"맑은 고딕", Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; font-size: 0.875em;
+ font-size: 18px;
+ padding:11px 26px;
+ position: relative;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;
+ }
+ .main .col-link a:hover {
+ background:#18b2df;
+ color:#fff;
+ border:1px solid #18b2df;
+ }
+
+ .btn-zone {margin:30px 0 0; padding:20px 0 30px; text-align:center; background-color:#cdcfd3;}
+ .btn-zone .col-link {margin:0; padding:0; text-align:center; }
+
+ /*css3-------------------------------------------------------------------------------*/
+ .main .images {
+ transition: all 8s ease-out 0s;
+ -webkit-transition: all 8s ease-out 0s;
+ -moz-transition: all 8s ease-out 0s;
+ -ms-transition: all 8s ease-out 0s;
+ -o-transition: all 8s ease-out 0s;
+ }
+ .main .col-link a,.banner-content .banner-link a{
+ -moz-transition: all 0.4s ease;
+ transition: all 0.4s ease;
+ }
+ .main .col-link a:hover,.banner-content .banner-link a:hover{
+ -moz-transition: all 0.2s ease;
+ transition: all 0.2s ease;
+ }
+ .align-center {text-align:center;}
+ .align-left {text-align:left !important;}
+
+ @media only screen and ( max-width : 1024px) {
+
+ .header {width:100%; min-width:1004px;min-height:222px; margin:0; padding:10px 0 ; }
+ .header h1 {margin:65px auto 0 auto; width:90%; padding:50px 0 ; color:#fff;  font-size: 2em; letter-spacing:0; background:url('http://jkrakisis.plani.kr/reference/2015/26_ck.mokwon/images/title_ba.gif') no-repeat 0 0;}
+ .footer {clear:both; margin:50px 0 ;  width:90%; min-width:1004px;border-top: 1px solid #d3d5d7;}
+
+ .main { margin:0 auto;width:100%;min-width:100%;padding: 0;text-align:center;}
+ .main .inner {width:85%; overflow:hidden; margin:0 auto;}
+
+ .main .col {
+ float: left;
+ height: auto;
+ margin: 50px 0 0;
+ position: relative;
+ text-align: center;
+ width: 430px;
+ }
+ .main .col span img {width:98%;}
+ .main .content-images {
+ background:#1A1A1A;
+ height:205px;
+ margin: -247px 0 0 54px;
+ overflow: hidden;
+ position: absolute;
+ width: 325px;
+ }
+ .main .content-images  a {background-size: 325px auto;}
+ .main .mobile img {text-align:center;}
+ .main .mobile .content-images {
+ background:#1A1A1A;
+ height:217px;
+ margin: -266px 0 0 200px;
+ overflow: hidden;
+ position: absolute;
+ width: 122px;
+ }
+ }
+
+ @media only screen and ( max-width : 768px) {
+ .header {width:100%; min-width:760px;min-height:222px; margin:0; padding:10px 0 ; }
+ .header h1 {margin:65px auto 0 auto; width:90%; min-width:760px;padding:50px 0 ; color:#fff;   font-size: 2em; letter-spacing:0; background:url('http://jkrakisis.plani.kr/reference/2015/26_ck.mokwon/images/title_ba.gif') no-repeat 0 0;}
+ .main .inner {width:70%; overflow:hidden; margin:0 auto;}
+ .footer {clear:both; margin:50px 0 ;  width:90%; min-width:768px;border-top: 1px solid #d3d5d7;}
+ .main .content-images  a {background-size: 325px auto;}
+ .btn-zone {width:760px; margin:0; padding:20px 0 30px; text-align:center; background-color:#cdcfd3;}
+ }
+ @media only screen and ( max-width : 640px) {
+	 .header {width:100%; min-width:620px;min-height:222px; margin:0; padding:10px 0 ; }
+	 .header h1 {margin:65px auto 0 auto; width:90%; min-width:600px;padding:50px 0 ; color:#fff;   font-size: 2em; letter-spacing:0; background:url('http://jkrakisis.plani.kr/reference/2015/26_ck.mokwon/images/title_ba.gif') no-repeat 0 0;}
+	 .main .inner {width:90%; overflow:hidden; margin:0 auto;}
+	 .footer {clear:both; margin:50px 0 ;  width:90%; min-width:620px;border-top: 1px solid #d3d5d7;}
+	 .btn-zone {width:620px; margin:0; padding:20px 0 30px; text-align:center; background-color:#cdcfd3;}
+	 .main {
+	 margin:0 auto;
+	 width:100%;
+	 min-width:620px;
+	 padding: 0
+	 text-align:center;
+	 }
+	 .main .inner {width:70%; overflow:hidden; margin:0 auto;}
+	 .main .col {float: left;height: auto;margin: 50px 0 0;position: relative;text-align: center;width: 430px;}
+	 .main .col span img {width:98%;}
+	 .main .content-images {
+	 background:#1A1A1A;
+	 height:205px;
+	 margin: -247px 0 0 54px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 325px;
+	 }
+	 .main .content-images  a {background-size: 325px auto;}
+	 .main .col .images {
+	 left: 0;
+	 top:0;
+	 cursor: pointer;
+	 height:100%;
+	 overflow: hidden;
+	 position: absolute;
+	 width:100%;
+	 background-size: 325px auto;
+	 }
+	 .main .mobile img {text-align:center;}
+	 .main .mobile .content-images {
+	 background:#1A1A1A;
+	 height:217px;
+	 margin: -266px 0 0 200px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 122px;
+	 }
+ }
+
+
+ @media only screen and ( max-width : 480px) {
+
+ .header {width:100%; min-width:460px;min-height:222px; margin:0; padding:10px 0 ; }
+ .header h1 {margin:65px auto 0 auto; width:90%; min-width:450px;padding:50px 0 ; color:#fff;   font-size: 1.8em; letter-spacing:0; background:url('http://jkrakisis.plani.kr/reference/2015/26_ck.mokwon/images/title_ba.gif') no-repeat 0 0;}
+ .footer {clear:both; margin:50px auto ;  width:90%; min-width:460px;border-top: 1px solid #d3d5d7;}
+ .btn-zone {width:460px; margin:0; padding:20px 0 30px; text-align:center; background-color:#cdcfd3;}
+	 .main {
+	 margin:0 auto;
+	 width:100%;
+	 min-width:460px;
+	 padding: 0
+	 text-align:center;
+	 }
+	 .main .inner {width:95%; overflow:hidden; margin:0 auto;}
+	 .main .col {float: left;height: auto;margin: 50px 0 0;position: relative;text-align: center;width: 430px;}
+	 .main .col span img {width:98%;}
+	 .main .content-images {
+	 background:#1A1A1A;
+	 height:205px;
+	 margin: -247px 0 0 54px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 325px;
+	 }
+	 .main .content-images  a {background-size: 325px auto;}
+	 .main .col .images {
+	 left: 0;
+	 top:0;
+	 cursor: pointer;
+	 height:100%;
+	 overflow: hidden;
+	 position: absolute;
+	 width:100%;
+	 background-size: 325px auto;
+	 }
+	 .main .col .images {
+	 left: 0;
+	 top:0;
+	 cursor: pointer;
+	 height:100%;
+	 overflow: hidden;
+	 position: absolute;
+	 width:100%;
+	 background-size: 325px auto;
+	 }
+	 .main .mobile img {text-align:center;}
+	 .main .mobile .content-images {
+	 background:#1A1A1A;
+	 height:217px;
+	 margin: -266px 0 0 200px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 122px;
+	 }
+
+ }
+ @media only screen and ( max-width : 425px) {
+
+	 .header {width:100%; min-width:405px;min-height:222px; margin:0; padding:10px 0 ; }
+	 .header h1 {margin:65px auto 0 auto; width:90%; min-width:405px; padding:50px 0 ; color:#fff;   font-size: 1.3em; letter-spacing:0; background:url('http://jkrakisis.plani.kr/reference/2015/26_ck.mokwon/images/title_ba.gif') no-repeat 0 0;}
+	 .footer {clear:both; margin:50px auto ;  width:90%; min-width:405px;border-top: 1px solid #d3d5d7;}
+	 .btn-zone {width:420px; margin:0; padding:20px 0 30px; text-align:center; background-color:#cdcfd3;}
+	.main {
+	 margin:0 auto;
+	 width:100%;
+	 min-width:420px;
+	 padding: 0;
+	 text-align:center;
+	 }
+	 .main .inner {width:90%; overflow:hidden; margin:0 auto;}
+	 .main .col {
+	 float: left;
+	 height: auto;
+	 margin: 50px 0 0;
+	 position: relative;
+	 text-align: center;
+	 width: 360px;
+	 }
+	 .main .col span img {width:98%;}
+	 .main .content-images {
+	 background:#1A1A1A;
+	 height:205px;
+	 margin: -210px 0 0 45px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 270px;
+	 height: 170px;
+	 }
+	 .main .content-images  a {background-size: 282px auto;}
+	  .main .col .images {
+	 left: 0;
+	 top:0;
+	 cursor: pointer;
+	 height:100%;
+	 overflow: hidden;
+	 position: absolute;
+	 width:100%;
+	 background-size: 282px auto;
+	 }
+	 .main .mobile img {text-align:center; width:100%; }
+	 .main .mobile .content-images {
+	 background:#1A1A1A;
+	 height:217px;
+	 margin: -266px 0 0 200px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 122px;
+	 }
+
+ }
+ @media only screen and ( max-width : 375px) {
+
+	 .header {width:100%; min-width:360px;min-height:222px; margin:0; padding:10px 0 ; }
+	 .header h1 {margin:65px auto 0 auto; width:90%; min-width:360px;padding:50px 0 ; color:#fff;   font-size: 1.3em; letter-spacing:0; background:url('http://jkrakisis.plani.kr/reference/2015/26_ck.mokwon/images/title_ba.gif') no-repeat 0 0;}
+	 .footer {clear:both; margin:50px auto ;  width:90%;  min-width:360px;border-top: 1px solid #d3d5d7;}
+	 .btn-zone {width:360px; margin:0; padding:20px 0 30px; text-align:center; background-color:#cdcfd3;}
+	 .main {
+	 margin:0 auto;
+	 width:100%;
+	 min-width:360px;
+	 padding: 0;
+	 text-align:center;
+	 }
+	 .main .inner {width:100%; overflow:hidden; margin:0 auto;}
+	 .main .col {
+	 float: left;
+	 height: auto;
+	 margin: 50px 0 0;
+	 position: relative;
+	 text-align: center;
+	 width: 360px;
+	 }
+	 .main .col span img {width:98%;}
+	 .main .content-images {
+	 background:#1A1A1A;
+	 height:205px;
+	 margin: -210px 0 0 45px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 270px;
+	 height: 170px;
+	 }
+	 .main .content-images  a {background-size: 282px auto;}
+	 .main .col .images {
+	 left: 0;
+	 top:0;
+	 cursor: pointer;
+	 height:100%;
+	 overflow: hidden;
+	 position: absolute;
+	 width:100%;
+	 background-size: 282px auto;
+	 }
+	 .main .mobile img {text-align:center; width:100%; }
+	 .main .mobile .content-images {
+	 background:#1A1A1A;
+	 height:217px;
+	 margin: -266px 0 0 200px;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 122px;
+	 }
+
+ }
