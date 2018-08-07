@@ -1,0 +1,99 @@
+* {margin:0; padding:0;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/* scrollbar */
+body::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #eee;
+}
+
+body::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #eee;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background-color: #333;
+}
+html {margin:0; padding:0; overflow-y:scroll;}
+body {  font-family: 'Spoqa Han Sans',"맑은 고딕", Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; font-size: 14px;  line-height: 1.5;  color: #444;height:100%; min-width:1075px;}
+img {border:0; margin:0; padding:0;}
+p.logo img {width:5%; height:5%; min-width:100px;}
+
+.header {width:100%; min-width:1075px; min-height:182px; margin:0 0 30px; padding:10px 0 ; }
+.header h1 {margin:65px auto 0 auto; width:1075px; padding:30px 0 65px; color:#fff;  font-size: 2em; letter-spacing:0; background:url('../images/title_ba.gif') no-repeat 0 0;}
+.header h1 span {display:block; color:#fff;  font-size:0.5em; font-weight:normal; font-family: Arial, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; opacity: 0.4; }
+.header h1.eng {padding:42px 0 30px; font-size:3.746em;  line-height: 1.2; letter-spacing:0; font-family: Arial, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif;} /*68*/
+.header h1.eng span { font-size:0.5em; letter-spacing:0;}
+.header h1.kor {font-size:3.685em;  line-height: 1.2; letter-spacing:-0.02em;} /*55*/
+.header h1.kor span {margin-top:20px; font-size:0.62em; letter-spacing:0;}
+
+#index h2 {font-size:1.0em; margin:0 auto 15px; padding:0; width:1075px; min-width:1075px; }
+#index h2 .box1 { font: 1.1em Arial;  display: inline-block; width: 9.5em; padding: .33em .5em .20em; background: #f47d93; color:#fff; margin: .5em 1em .5em 0; border-radius:20px; vertical-align:middle;  font-weight:normal;}
+#index h2 .box1 .icon {display:inline-block; width:20px; height:20px; background:url("../images/date_arrow.png") no-repeat  0 1px; vertical-align:middle;}
+
+.section {position:relative; margin:10px auto 20px; padding:0 0 23px; width:1075px; min-width:1075px; text-align:left; overflow:hidden; vertical-align:top; background:url('../images/device_line.png') repeat-x 0 0; }
+.section dl {padding:0 0 8px; margin:0; float:left; width:268px;}
+.section dt {display:block; position:relative; overflow:hidden; padding:0; margin:0;}
+.section dd {position:relative; overflow:hidden;}
+.section .text {padding:10px 0 ; margin:0; font-size:1em; color:#555; text-align:center; letter-spacing:-0.05em;}
+.section .text strong {display:inline-block; margin:0 3px;}
+.section .title {display:block;  margin-bottom:7px; font-weight:bold; padding-left:5px; font-size:15px; color:#262626;}
+.section .title strong {display:inline-block; text-align:center; padding:5px 9px; font-size:20px; font-weight:bold; color:#fff; background-color:#5c5b5b; border-radius:50%;}
+.section dt:hover span {position:absolute; bottom:15px; right:15px; z-index:20; display: block; width:36px !important;}
+.section dt img {width:100%; vertical-align:top; border:0;}
+.section dt span {display:none;}
+.row {margin-top:-20px;}
+.section .concept {width:80%; font-size:13px !important; text-align:center; width:268px;}
+
+div.inner-desktop {position:relative; margin:0 auto; width:268px; height:155px; overflow:hidden; background:url('../images/device_pc.png') no-repeat ;}
+div.inner-desktop a {position:absolute; left:34px; top:10px;display:block; margin:0 auto; text-align:center; width:200px; height:125px; background-color:#fff; overflow:hidden;}
+div.inner-desktop img {width:100%; margin:0 auto; }
+div.inner-desktop img.type01 {width:120% !important; margin-left:-10% !important;}
+
+div.inner-phone {position:relative; margin:0 auto;width:85px; height:155px; overflow:hidden; background:url('../images/device_m.png') no-repeat ;}
+div.inner-phone a {position:absolute; left:7px; top:22px; padding:0; margin:0; display:block; width:70px; height:111px; background-color:#fff; overflow:hidden;}
+
+.footer {clear:both; margin:0 0 50px;  width:100%; }
+.footer p.logo {text-align:center; padding-top:30px; margin:0;}
+.footer p.copyright {display:block;text-align:center; padding-bottom: 10px; font-style:normal; color:#999; font-size:11px; line-height:16px; }
+.footer address {display:block;text-align:center; padding-top:10px; font-style:normal; color:#999; font-size:11px; line-height:16px; }
+
+.align-center {text-align:center;}
+.align-left {text-align:left !important;}
+
+.cencept {margin:-40px auto 20px;  width:1075px; min-width:1075px; overflow:hidden; }
+.cencept dl {margin-left:30px; width:40%; float:left;}
+.cencept dt {margin:0 0 5px; font-size:15px;}
+.cencept dd {font-size:13px !important;}
+.color-red {color:#ff0000;}
+
+.btn-zone {clear:both; width:100%; margin-top:50px;padding:30px 0; text-align:center;background-color:#cdcfd3;}
+.col-link { display: inline-block; margin: 0;}
+.col-link a {
+    background:none;
+	border:1px solid #070707;
+    color: #070707;
+  font-family: 'Spoqa Han Sans',"맑은 고딕", Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; font-size: 0.875em; 
+    font-size: 18px;
+    padding:11px 26px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.col-link a:hover {
+    background:#18b2df;
+	color:#fff;
+	border:1px solid #18b2df;
+}
+
+/* 폰 넓이값 조절*/
+div.phone dl {padding-left:10px; padding-right:10px;}
+div.phone02 {text-align:center;}
+div.phone02 dl {display:inline-block; float:none; padding-left:10px; padding-right:10px;}
+
+.right {float:right; overflow:hidden;}
+.right dl {padding-left:10px; padding-right:10px;}
