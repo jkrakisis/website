@@ -22,7 +22,7 @@ img {border:0; margin:0; padding:0;}
 p.logo img {width:5%; height:5%; min-width:100px;}
 
 .header {width:100%; min-width:1075px; min-height:182px; margin:0 0 30px; padding:10px 0 ; }
-.header h1 {margin:65px auto 0 auto; width:1075px; padding:30px 0 65px; color:#fff;  font-size: 2em; letter-spacing:0; background:url('../images/title_ba.gif') no-repeat 0 0;}
+.header h1 {margin:65px auto 0 auto; width:1075px; padding:30px 0 65px; color:#fff;  font-size: 2em; letter-spacing:0; background:url('./images/title_ba.gif') no-repeat 0 0;}
 .header h1 span {display:block; color:#fff;  font-size:0.5em; font-weight:normal; font-family: Arial, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; opacity: 0.4; }
 .header h1.eng {padding:42px 0 30px; font-size:3.746em;  line-height: 1.2; letter-spacing:0; font-family: Arial, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif;} /*68*/
 .header h1.eng span { font-size:0.5em; letter-spacing:0;}
@@ -31,9 +31,9 @@ p.logo img {width:5%; height:5%; min-width:100px;}
 
 #index h2 {font-size:1.0em; margin:0 auto 15px; padding:0; width:1075px; min-width:1075px; }
 #index h2 .box1 { font: 1.1em Arial;  display: inline-block; width: 9.5em; padding: .33em .5em .20em; background: #f47d93; color:#fff; margin: .5em 1em .5em 0; border-radius:20px; vertical-align:middle;  font-weight:normal;}
-#index h2 .box1 .icon {display:inline-block; width:20px; height:20px; background:url("../images/date_arrow.png") no-repeat  0 1px; vertical-align:middle;}
+#index h2 .box1 .icon {display:inline-block; width:20px; height:20px; background:url("./images/date_arrow.png") no-repeat  0 1px; vertical-align:middle;}
 
-.section {position:relative; margin:10px auto 20px; padding:0 0 23px; width:1075px; min-width:1075px; text-align:left; overflow:hidden; vertical-align:top; background:url('../images/device_line.png') repeat-x 0 0; }
+.section {position:relative; margin:10px auto 20px; padding:0 0 23px; width:1075px; min-width:1075px; text-align:left; overflow:hidden; vertical-align:top; background:url('./images/device_line.png') repeat-x 0 0; }
 .section dl {padding:0 0 8px; margin:0; float:left; width:268px;}
 .section dt {display:block; position:relative; overflow:hidden; padding:0; margin:0;}
 .section dd {position:relative; overflow:hidden;}
@@ -47,12 +47,12 @@ p.logo img {width:5%; height:5%; min-width:100px;}
 .row {margin-top:-20px;}
 .section .concept {width:80%; font-size:13px !important; text-align:center; width:268px;}
 
-div.inner-desktop {position:relative; margin:0 auto; width:268px; height:155px; overflow:hidden; background:url('../images/device_pc.png') no-repeat ;}
+div.inner-desktop {position:relative; margin:0 auto; width:268px; height:155px; overflow:hidden; background:url('./images/device_pc.png') no-repeat ;}
 div.inner-desktop a {position:absolute; left:34px; top:10px;display:block; margin:0 auto; text-align:center; width:200px; height:125px; background-color:#fff; overflow:hidden;}
 div.inner-desktop img {width:100%; margin:0 auto; }
 div.inner-desktop img.type01 {width:120% !important; margin-left:-10% !important;}
 
-div.inner-phone {position:relative; margin:0 auto;width:85px; height:155px; overflow:hidden; background:url('../images/device_m.png') no-repeat ;}
+div.inner-phone {position:relative; margin:0 auto;width:85px; height:155px; overflow:hidden; background:url('./images/device_m.png') no-repeat ;}
 div.inner-phone a {position:absolute; left:7px; top:22px; padding:0; margin:0; display:block; width:70px; height:111px; background-color:#fff; overflow:hidden;}
 
 .footer {clear:both; margin:0 0 50px;  width:100%; }
