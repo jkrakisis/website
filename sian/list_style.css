@@ -56,7 +56,7 @@ div.inner-phone {position:relative; margin:0 auto;width:85px; height:155px; over
 div.inner-phone a {position:absolute; left:7px; top:22px; padding:0; margin:0; display:block; width:70px; height:111px; background-color:#fff; overflow:hidden;}
 
 div.inner-pad {position:relative; margin:0 auto;width:128px; height:182px; overflow:hidden; background:url('./images/device_pad.png') no-repeat ;}
-div.inner-pad a {position:absolute; left:7px; top:22px; padding:0; margin:0; display:block; width:117px; height:168px; background-color:#fff; overflow:hidden;}
+div.inner-pad a {position:absolute; left:5px; top:6px; padding:0; margin:0; display:block; width:117px; height:168px; background-color:#fff; overflow:hidden;}
 
 .footer {clear:both; margin:0 0 50px;  width:100%; }
 .footer p.logo {text-align:center; padding-top:30px; margin:0;}
